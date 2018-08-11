@@ -64,7 +64,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: model_dd_slayer@hotmail.co.jp (LXV6M4XT43)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
@@ -121,6 +121,7 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Presenters\ExPresenter.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Views\MainView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
